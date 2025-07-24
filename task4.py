@@ -28,7 +28,7 @@ registered_course = len(courses)
 print(registered_course)
 print()
 
-#registered-course //= 2
+print(courses[3])
 #print (registered_course)
 
 
