@@ -22,3 +22,10 @@ print()
 
 meals.append("Fura da Nono")
 print (meals)
+
+centre_meal = len(meals)//2
+print(centre_meal)
+print (meals[3])
+
+meals.sort()
+print(meals)
