@@ -10,3 +10,17 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+money = [1000, 1200, 800, 1500, 1100]
+Total_money = (1000 + 1200 + 800 + 1500 + 1100)
+print(Total_money)
+print()
+
+money.remove(money[2])
+print("mistake corrected")
+money.insert(2, 1000)
+print(money)
+print()
+
+print("money in reversed other")
+print(money[::-1])
